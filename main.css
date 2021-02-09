@@ -23,6 +23,7 @@ background-attachment: fixed;
 #valorDado
 {
     display: none;
+    width:150px;
 }
 #mario
 {
@@ -41,6 +42,6 @@ background-attachment: fixed;
     min-height: 120px;
     right: 0;
     position: relative;
-    left: 200px;
+    left: 400px;
 
 }
