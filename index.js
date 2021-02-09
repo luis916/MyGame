@@ -18,13 +18,13 @@ function reproducirAudio()
   audio.src = "sonidoDados.mp3";
   audio.play();
   var valorDado = document.getElementById("valorDado");
-  var numAleatorio = Math.random()*20
+  var numAleatorio = Math.random()*18
   valorDado.style.display = "block";
   valorDado.innerHTML = "Avanzas "+Math.round(numAleatorio)+" espacios";
   mario.style.left = `${Math.round(numAleatorio)*Math.round(numAleatorio)}px`;
 
   var ganaste = ``;
-   if (Math.round(numAleatorio)>=20)
+   if (Math.round(numAleatorio)>=18)
    {
      var h1 = document.createElement("h6");
      var textoH1 = document.createTextNode("Ganaste!!!");
