@@ -18,7 +18,7 @@ function reproducirAudio()
   audio.src = "sonidoDados.mp3";
   audio.play();
   var valorDado = document.getElementById("valorDado");
-  var numAleatorio = Math.random()*6
+  var numAleatorio = Math.random()*20
   valorDado.style.display = "block";
   valorDado.innerHTML = "Avanzas "+Math.round(numAleatorio)+" espacios";
   mario.style.left = `${Math.round(numAleatorio)*Math.round(numAleatorio)}px`;
