@@ -24,7 +24,7 @@ function reproducirAudio()
   mario.style.left = `${Math.round(numAleatorio)*Math.round(numAleatorio)}px`;
 
   var ganaste = ``;
-   if (Math.round(numAleatorio)>=3)
+   if (Math.round(numAleatorio)>=20)
    {
      var h1 = document.createElement("h6");
      var textoH1 = document.createTextNode("Ganaste!!!");
