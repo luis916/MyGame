@@ -13,7 +13,7 @@ body{
     margin: 0;
     max-height: 100vh;
 }
-#caja{
+#caja,h1{
     border: 1px solid;
     padding: 14px;
     text-align: center;
