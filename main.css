@@ -43,10 +43,5 @@ video{
     max-height: 100vh;
 }
 
-@media screen and (min-height:740px){
-    video{display: none;position: relative;}#caja{position: static;margin-top: 20vh;}
-    body{
-        background-color: rgb(0,0,0,0.5);
-    }
-}
+
 
