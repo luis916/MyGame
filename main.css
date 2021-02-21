@@ -3,13 +3,15 @@
     font-family:sans-serif;
     border-radius: 4px;
     border: none;
-    color: white;
+    color: rgba(228, 83, 83, 0.8);
+    margin: 0;
 }
 body{
    transition-duration: 2s;
     background-size: cover;
     background-repeat: repeat-y;
     margin: 0;
+    max-height: 100vh;
 }
 #caja{
     border: 1px solid;
@@ -17,26 +19,44 @@ body{
     text-align: center;
     background-color: rgb(0,0,0,0.5);
     box-sizing: border-box;
-    margin-top: 15vh;
+    top: 5vh;
     width: 90vw;
     margin-left: 5vw;
     margin-right: 5vw;
-    transition-duration: 5s;
+    position: relative;
+    top: -80vh;
 }
 input,select{
     display: block;
     width: 82vw;
     text-align: center;
     margin-top: 2vh;
-    background-color: rgb(0,0,0,0.8);
-    color: white;
-    transition-duration: 5s;
+    background-color: rgb(0,0,0,0);
+    border-bottom: 2px solid  rgba(228, 83, 83, 0.8);
 }
 #mes{
     position: relative;
     top: 2vh;
 }
- option {
-    background-color: rgb(0,0,0,0.4);
-    max-width: 30px;
+video{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+@media screen and (min-width:530px){
+    video{display: none;position: relative;}#caja{position: static;margin-top: 20vh;}
+    body{
+        background-color: rgb(0,0,0,0.5);
+    }
+}
+@media screen and (min-height:740px){
+    video{display: none;position: relative;}#caja{position: static;margin-top: 20vh;}
+    body{
+        background-color: rgb(0,0,0,0.5);
+    }
+}
+@media screen and (max-width:290px){
+    video{display: none;position: relative;}#caja{position: static;margin-top: 20vh;}
+    body{
+        background-color: rgb(0,0,0,0.5);
+    }
 }
