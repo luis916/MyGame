@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html style="background-color: black;">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Presupuesto mensual</title>
     <link rel="stylesheet" href="main.css">
 </head>
-<body style="overflow-x:hidden; overflow-y:hidden">
+<h1 id="h1"><a href="https://www.facebook.com/profile.php?id=100026284936695">Creado por @Luislopez</a></h1>
+<body style="overflow-x:hidden; overflow-y:hidden" id="body">
     <video autoplay loop muted>
         <source src="newyork.mp4" type="video/mp4">
     </video>
     <div id="caja">
+        <img id="sonido" src="sonido.ico">
+        <img id="sinSonido" src="sinSonido.ico">
         <label>Presupuesto</label>
         <input type="text"id="presupuesto">
         <label id="mes">Mes</label>
@@ -32,8 +35,8 @@
         <label>Día</label>
         <input type="text"id="dia">
         <input type="submit" value="Calcular" id="calcular">
+        <audio src="audio.mp3" id="sonar"></audio>
     </div>
-<h1>Creado por @llopezmunoz</h1>
 </body>
 <script src="index.js"></script>
 </html>
