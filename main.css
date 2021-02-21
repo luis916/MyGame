@@ -49,9 +49,4 @@ video{
         background-color: rgb(0,0,0,0.5);
     }
 }
-@media screen and (max-width:290px){
-    video{display: none;position: relative;}#caja{position: static;margin-top: 20vh;}
-    body{
-        background-color: rgb(0,0,0,0.5);
-    }
-}
+
